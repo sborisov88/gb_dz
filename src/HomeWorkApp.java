@@ -1,4 +1,10 @@
-public class HomeWorkApp {
+/**
+ *Java 1. Homework 1
+ *
+ * @author Borisov Sergey
+ * @version 17.1.2022
+*/
+class HomeWorkApp {
 
     public static void main(String[] args) {
         printThreeWords();
