@@ -1,3 +1,5 @@
+package lesson1;
+
 /**
  *Java 1. Homework 1
  *
