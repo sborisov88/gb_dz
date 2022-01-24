@@ -6,6 +6,7 @@ package lesson1;
  * @author Borisov Sergey
  * @version 17.1.2022
 */
+
 class HomeWorkApp {
 
     public static void main(String[] args) {
@@ -16,31 +17,27 @@ class HomeWorkApp {
     }
 
     static void compareNumbers() {
-        int a = 4;
+        int a = 62;
         int b = 6;
-        if (a >= b)
-            System.out.println("a >= b");
-        else
-            System.out.println("a < b");
+        System.out.println(a >= b ? "a >= b" : "a < b");
     }
 
     static void printColor() {
         int value = 210;
-        if (value <= 0)
+        if (value <= 0) {
             System.out.println("Красный");
-        else if (value <= 100)
+        }
+        else if (value <= 100) {
             System.out.println("Желтый");
-        else
+        } else {
             System.out.println("Зеленый");
+        }
     }
 
     static void checkSumSign() {
         int a = 2;
-        int b = -5;
-        if ((a+b) >= 0)
-            System.out.println("Сумма положительная");
-        else
-            System.out.println("Сумма отрицательная");
+        int b = -2;
+        System.out.println((a+b) >= 0 ? "Сумма положительная" : "Сумма отрицательная");
     }
 
     static void printThreeWords() {
